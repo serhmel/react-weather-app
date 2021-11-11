@@ -1,0 +1,84 @@
+.weatherApp {
+  padding: 40px 60px;
+}
+.weatherDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.weatherSearch {
+  margin-right: 20px;
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .search {
+    max-width: 200px;
+    padding: 9px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.weatherSearch button {
+  background-color: #1450fe;
+  border-color: #1450fe;
+  color: #ffffff;
+  padding: 9px 40px;
+  cursor: pointer;
+}
+
+.weatherCurrent {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+
+  .weatherToday {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.lastQueries {
+  background-color: #f1f3f7;
+  padding: 20px;
+  margin-top: 40px;
+
+  h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .lastQueriesList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .lastQueriesItem {
+    color: #1450fe;
+    font-weight: bold;
+    margin-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .weatherSearch .search {
+    max-width: 150px;
+  }
+  .weatherSearch button {
+    padding: 9px 30px;
+  }
+  .weatherCurrent {
+    font-size: 30px;
+  }
+}
+
