@@ -27,9 +27,12 @@ npm install
 
 2. Create a `.env` file in the root folder with:
 
-`REACT_APP_WEATHER_API_KEY=your_api_key`
+    ```env
+    REACT_APP_WEATHER_API_KEY=your_api_key
+    ```
 
-Replace `your_api_key` with your actual OpenWeather API key.
+   Replace `your_api_key` with your actual OpenWeather API key.
+
 
 3. Run the app:
 
